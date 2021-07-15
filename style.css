@@ -1,39 +1,26 @@
-* {
-	box-sizing: border-box;
-}
-
-body,
-html {
-	/* main styles: */
-	border-radius: 20px;
-	width: 300px;
-	height: 200px;
-	padding: 0;
-	margin: 0;
-	text-align: center;
-	border: 1px solid white;
-	border-bottom: 50px solid red;
-}
-
-h1 {
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	margin: 0;
-	color: white;
+.nametag {
 	background-color: red;
-	font-size: 30px;
-	font-weight: bold;
-	letter-spacing: 2px;
-	height: auto;
+	height: 350px;
+	width: 550px;
+	display: grid;
+	grid-template-rows: 1fr 2fr 1fr;
+	border-radius: 15px;
+	text-align: center;
 }
 
-span {
-	color: black;
+.hello {
+	color: white;
+}
+
+.name {
 	background-color: white;
-	font-size: 50px;
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	font-style: italic;
+	align-items: center;
+	font-size: 2rem;
 	font-family: cursive;
+}
+
+.bottom {
+	background-color: red;
 }
